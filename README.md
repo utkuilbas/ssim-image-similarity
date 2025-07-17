@@ -1,6 +1,7 @@
 # SSIM Görsel Benzerlik Analizi Aracı
 
 Bu Python projesi, bir klasördeki görsellerin yapısal benzerlik indeksine (SSIM) göre benzerlik skorlarını hesaplar, SQLite veritabanında saklar ve analiz sonuçlarını CSV olarak dışa aktarır.
+Örnek .db ve .csv çıktısı verilmiştir.
 
 ## Veriseti
 
@@ -44,7 +45,7 @@ analyzer = SSIMSimilarityAnalyzer(
 2. Programı çalıştır:
 
 ```
-python ssim_analyzer.py
+python main.py
 ```
 
 3. Çıktılar:
